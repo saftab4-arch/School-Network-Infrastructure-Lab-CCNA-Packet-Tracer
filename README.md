@@ -154,20 +154,6 @@ Teacher-101 (VLAN 10) → IDF-1 Fa0/1 (access VLAN 10)
 
 ---
 
-## Screenshots
-
-| Screenshot | Description |
-|-----------|-------------|
-| ![Topology](screenshots/01-topology.png) | Full network topology in Packet Tracer |
-| ![VLAN Brief IDF](screenshots/02-vlan-brief-idf.png) | `show vlan brief` on IDF-1 showing port-to-VLAN assignments |
-| ![Trunk Status](screenshots/03-trunk-status.png) | `show interfaces trunk` confirming 802.1Q trunk with VLANs 1,10,20 |
-| ![SVI Status](screenshots/04-svi-status.png) | `show ip interface brief` on MDF-CORE showing SVIs up/up |
-| ![Ping Same VLAN](screenshots/05-ping-same-vlan.png) | Teacher-101 → Teacher-102 (VLAN 10, TTL=128) |
-| ![Ping Wireless](screenshots/06-ping-wireless.png) | Student-101 → Student-102 (VLAN 20, wireless, TTL=128) |
-| ![Ping Cross VLAN](screenshots/07-ping-cross-vlan.png) | Teacher-101 → Student-101 (cross-VLAN, TTL=127 proves routing) |
-
----
-
 ## Switch Configurations
 
 <details>
